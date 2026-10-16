@@ -6,7 +6,7 @@ TrafficLens ek vehicle detection system hai jo traffic footage me **car, bus, tr
 
 ---
 
-## ✨ Features
+## Features
 
 - 4 vehicle classes ki detection: `car`, `bus`, `truck`, `van`
 - Pretrained YOLOv8s ko transfer learning se fine-tune kiya gaya
@@ -17,7 +17,7 @@ TrafficLens ek vehicle detection system hai jo traffic footage me **car, bus, tr
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Area | Tool |
 |---|---|
@@ -32,7 +32,7 @@ TrafficLens ek vehicle detection system hai jo traffic footage me **car, bus, tr
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [UA-DETRAC Dataset 10K](https://universe.roboflow.com/) (Roboflow Universe, workspace `rjacaac1`, version 2)
 - **Format:** YOLOv11-style annotations (YOLO txt format)
@@ -42,7 +42,7 @@ TrafficLens ek vehicle detection system hai jo traffic footage me **car, bus, tr
 
 ---
 
-## 🏋️ Training Configuration
+## Training Configuration
 
 | Parameter | Value |
 |---|---|
@@ -60,7 +60,7 @@ TrafficLens ek vehicle detection system hai jo traffic footage me **car, bus, tr
 
 ---
 
-## 📈 Results
+## Results
 
 Validation set (500 images) par final performance:
 
@@ -84,7 +84,7 @@ Training ke dauran mAP@0.5 epoch 1 ke 0.789 se badh kar epoch 20 tak 0.967 ho ga
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 TrafficLens/
@@ -170,7 +170,7 @@ ffmpeg -i output.mp4 -vcodec libx264 -crf 28 output_compressed.mp4 -y
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Multi-object tracking (ByteTrack / BoT-SORT) ke saath vehicle counting
 - Zyada epochs aur YOLOv11 / larger model variants ke saath comparison
@@ -180,7 +180,7 @@ ffmpeg -i output.mp4 -vcodec libx264 -crf 28 output_compressed.mp4 -y
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [Ultralytics](https://github.com/ultralytics/ultralytics) for YOLOv8
 - [Roboflow](https://roboflow.com/) for dataset hosting
@@ -188,6 +188,4 @@ ffmpeg -i output.mp4 -vcodec libx264 -crf 28 output_compressed.mp4 -y
 
 ---
 
-## 📄 License
-
-Is project ko MIT License ke under release kiya gaya hai. Dataset ke apne license terms alag hain, unhe zaroor check karo.
+.
